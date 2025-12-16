@@ -1,11 +1,47 @@
-/* 
+.caja{
+    width: 110px;
+    height: 220px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    You can write your own styles here...
+.rojo{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(228, 33, 33);
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.amarillo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.verde{
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.rojo-iluminacion{
+    box-shadow: 0px 0px 5rem 1rem red
+}
+
+.amarillo-iluminacion{
+    box-shadow: 0px 0px 5rem 1rem yellow
+}
+
+.verde-iluminacion{
+    box-shadow: 0px 0px 5rem 1rem green
+}
